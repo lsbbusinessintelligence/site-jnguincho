@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Zap, Settings, Lightbulb, ShieldAlert, AlertTriangle, Plug } from "lucide-react";
+import { Truck, AlertCircle, Wrench, Zap, Lock, DollarSign } from "lucide-react";
 
 const services = [
   {
@@ -18,37 +18,37 @@ const services = [
     desc: "Instalação de lustres, luminárias, fitas LED e sensores de presença para valorizar seu ambiente.",
   },
   {
-    icon: ShieldAlert,
-    title: "Manutenção Preventiva",
-    desc: "Revisão completa da fiação para evitar curtos-circuitos e reduzir o consumo de energia elétrica.",
+    icon: Truck,
+    title: "Reboque 24h",
+    desc: "Serviço de reboque completo para qualquer tipo de veículo, disponível 24 horas por dia e noite em todo o Distrito Federal.",
   },
   {
-    icon: AlertTriangle,
-    title: "Atendimento de Urgência",
-    desc: "Identificação e conserto de quedas de energia e cheiro de queimado com rapidez e segurança.",
+    icon: AlertCircle,
+    title: "Socorro para Panes Elétricas",
+    desc: "Atendimento rápido para problemas elétricos no veículo com profissionais especializados e equipamento adequado.",
+  },
+  {
+    icon: Wrench,
+    title: "Troca de Pneus",
+    desc: "Troca de pneus com rapidez e segurança na sua localização atual, sem necessidade de deslocamento.",
+  },
+  {
+    icon: Truck,
+    title: "Transporte de Veículos Leves",
+    desc: "Transporte seguro de veículos leves para mecânicas, estacionamentos ou destinos específicos conforme necessário.",
   },
   {
     icon: Zap,
-    title: "Serviços Gerais Elétricos",
-    desc: "Infraestrutura elétrica para residências e comércios, passagem de cabos e adequação de instalações.",
+    title: "Recarga de Bateria",
+    desc: "Serviço de recarga de bateria com equipamento profissional para colocar seu veículo em funcionamento novamente.",
   },
-];
-
-const ServicosSection = () => (
-  <section id="servicos" className="py-20 md:py-28 bg-background scroll-mt-28">
-    <div className="container">
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
-        className="text-center max-w-2xl mx-auto mb-14"
-      >
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Nossos <span className="text-gradient">Serviços</span>
-        </h2>
+  {
+    icon: Lock,
+    title: "Abertura de Veículos",
+    desc: "Abertura segura de veículos sem danificar a estrutura ou o sistema de segurança da porta ou vidro.",
+  },
         <p className="text-muted-foreground text-lg">
-          Soluções elétricas completas para sua residência ou comércio com segurança e qualidade técnica.
+          Serviços de reboque e socorro veicular 24h com profissionais treinados e preço justo.
         </p>
       </motion.div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

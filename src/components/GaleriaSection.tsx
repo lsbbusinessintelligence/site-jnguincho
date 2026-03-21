@@ -1,12 +1,16 @@
 import { motion } from "framer-motion";
 
 const photos = [
-  { src: "/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_01.jpeg", alt: "Instalação elétrica residencial pelo Sr. Luiz" },
-  { src: "/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_02.jpeg", alt: "Quadro de força organizado pelo eletricista Luiz" },
-  { src: "/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_03.jpeg", alt: "Troca de disjuntores e manutenção elétrica" },
-  { src: "/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_04.jpeg", alt: "Instalação de tomadas e interruptores" },
-  { src: "/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_05.jpeg", alt: "Serviço elétrico realizado com capricho" },
-  { src: "/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_06.jpeg", alt: "Atendimento elétrico profissional em domicílio" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE01.jpeg", alt: "Serviço de reboque e socorro veicular JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE02.jpeg", alt: "Reboque profissional da JN Guincho em ação" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE03.jpeg", alt: "Socorro veicular 24h JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE04.jpeg", alt: "Atendimento de emergência da JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE05.jpeg", alt: "Equipe profissional JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE06.jpeg", alt: "Transporte seguro com JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE07.jpeg", alt: "Reboque com qualidade JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE08.jpeg", alt: "Socorro rápido JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE09.jpeg", alt: "Profissionalismo JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE010.jpeg", alt: "Segurança no atendimento JN Guincho" },
 ];
 
 const GaleriaSection = () => (
@@ -20,10 +24,10 @@ const GaleriaSection = () => (
         className="text-center max-w-3xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Trabalhos e Resultados <span className="text-gradient">do Sr. Luiz</span>
+          Trabalhos e Atendimentos <span className="text-gradient">da JN Guincho</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Fotos reais de instalações e manutenções elétricas executadas com segurança e qualidade.
+          Fotos reais de serviços de reboque e socorro veicular executados com profissionalismo e segurança.
         </p>
       </motion.div>
 

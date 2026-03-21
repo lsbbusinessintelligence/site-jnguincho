@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { ShieldCheck, Clock3, Wallet, Brush } from "lucide-react";
+import { ShieldCheck, Clock, Award, DollarSign } from "lucide-react";
 
 const benefits = [
-  { icon: ShieldCheck, title: "Segurança em Primeiro Lugar", desc: "Serviços executados rigorosamente dentro das normas técnicas para proteger você e sua família." },
-  { icon: Clock3, title: "Atendimento Ágil", desc: "Entendemos que problema elétrico não pode esperar. Respondemos rápido e resolvemos com eficiência." },
-  { icon: Wallet, title: "Preço Justo e Transparente", desc: "Orçamentos claros, sem surpresas. O valor combinado é o valor cobrado." },
-  { icon: Brush, title: "Limpeza e Organização", desc: "Sua casa do jeito que estava, mas com a elétrica funcionando perfeitamente." },
+  { icon: Clock, title: "Atendimento 24h", desc: "Disponível 24 horas por dia, 7 dias por semana, em todo o Distrito Federal sem exceção." },
+  { icon: Award, title: "Profissionais Treinados", desc: "Equipe especializada e qualificada para todo tipo de situação veicular e orientada para segurança." },
+  { icon: DollarSign, title: "Preço Justo e Transparente", desc: "Orçamento claro sem surpresas ou taxas ocultas. Você sabe exatamente o que vai pagar." },
+  { icon: ShieldCheck, title: "Chegada Rápida", desc: "Agilidade no atendimento com menor tempo de espera. Sua segurança é nossa prioridade." },
 ];
 
 const BeneficiosSection = () => (
@@ -19,7 +19,7 @@ const BeneficiosSection = () => (
         className="text-center max-w-2xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Por que contratar o <span className="text-gradient">Sr. Luiz?</span>
+          Por que escolher a <span className="text-gradient">JN Guincho?</span>
         </h2>
       </motion.div>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

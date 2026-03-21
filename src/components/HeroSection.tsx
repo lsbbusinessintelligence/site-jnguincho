@@ -26,12 +26,12 @@ const HeroSection = () => (
         >
           <div className="inline-flex items-center gap-3 mb-5 rounded-full bg-white/10 border border-white/20 px-3 py-2">
             <img
-              src="/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_LOGO.png"
-              alt="Logo Luiz Falcirolli Eletricista"
+              src="/images/jn-guincho/JNGUINCHO-LOGO.png"
+              alt="Logo JN Guincho"
               className="w-12 h-12 rounded-full object-contain bg-white p-1 border border-white/40"
             />
             <span className="text-xs md:text-sm text-primary-foreground/90 font-medium">
-              Luiz Falcirolli | Eletricista Profissional
+              JN Guincho | Reboque 24 Horas
             </span>
           </div>
           <div className="flex items-center gap-3 mb-6">
@@ -41,16 +41,16 @@ const HeroSection = () => (
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground mb-6">
-            Luiz Eletricista | Soluções Elétricas Seguras e Profissionais
+            Guincho e Reboque 24 Horas em Brasília
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/70 mb-10 max-w-2xl">
-            Especialista em instalações e manutenções elétricas. Do chuveiro ao quadro de força, o Sr. Luiz garante a segurança da sua família com um serviço limpo, rápido e eficiente.
+            Socorro rápido para veículos leves e pesados. Atendimento imediato em Brasília e em todo o Distrito Federal com profissionais treinados e preço justo.
           </p>
           <a
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-accent text-accent-foreground font-semibold text-lg hover:brightness-110 transition-all duration-200 shadow-[0_0_30px_-10px_rgba(251,192,45,0.8)]"
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-accent text-accent-foreground font-semibold text-lg hover:brightness-110 transition-all duration-200 shadow-[0_0_30px_-10px_rgba(37,211,102,0.8)]"
             onClick={() => {
               if (typeof window !== 'undefined' && (window as any).gtag) {
                 (window as any).gtag('event', 'click_whatsapp', {
@@ -61,24 +61,24 @@ const HeroSection = () => (
             }}
           >
             <MessageCircle className="w-5 h-5" />
-            Chamar no WhatsApp agora
+            Chamar Guincho Agora
           </a>
           <div className="mt-8 flex flex-col gap-3">
             <span className="flex items-center gap-2 text-primary-foreground/80 text-sm md:text-base font-semibold">
               <Check className="w-5 h-5 text-accent flex-shrink-0" />
-              Atendimento residencial e comercial em Guarulhos e região
+              Atendimento 24 horas em todo o Distrito Federal
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />
-              Instalações elétricas dentro das normas técnicas
+              Chegada rápida com profissionais treinados
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />
-              Orçamento transparente e atendimento de urgência
+              Preço justo e transparente, sem surpresas
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />
-              Limpeza pós-serviço e foco total na resolução do problema
+              Segurança e cuidado com seu veículo
             </span>
           </div>
         </motion.div>
@@ -92,15 +92,15 @@ const HeroSection = () => (
           <div className="bg-gradient-to-br from-[#0d2454] to-[#1a3a6e] rounded-3xl shadow-2xl p-6 max-w-md border border-white/10">
             <div className="relative overflow-hidden rounded-2xl bg-[#0d1f3c]">
               <img
-                src="/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_01.jpeg"
-                alt="Serviço elétrico executado pelo Sr. Luiz"
+                src="/images/jn-guincho/JNGUINCHOFOTOSITE01.jpeg"
+                alt="Serviço de guincho da JN Guincho"
                 className="w-full h-auto"
               />
             </div>
             <div className="relative overflow-hidden rounded-2xl bg-[#0d1f3c] mt-4">
               <img
-                src="/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_02.jpeg"
-                alt="Instalação elétrica profissional pelo Sr. Luiz"
+                src="/images/jn-guincho/JNGUINCHOFOTOSITE02.jpeg"
+                alt="Reboque profissional da JN Guincho"
                 className="w-full h-auto"
               />
             </div>
@@ -112,17 +112,17 @@ const HeroSection = () => (
                 ))}
               </div>
               <p className="text-white font-semibold text-base mb-2">
-                "Serviço rápido, seguro e organizado."
+                "Equipe profissional e atendimento ágil!"
               </p>
               <p className="text-white/60 text-sm">
-                Clientes reais recomendam o Sr. Luiz
+                Clientes satisfeitos com a JN Guincho
               </p>
             </div>
           </div>
 
           <div className="inline-flex items-center gap-2 rounded-full bg-card/90 border border-accent/20 px-5 py-2 text-sm text-foreground shadow">
             <ShieldCheck className="w-4 h-4 text-accent" />
-            Segurança elétrica garantida para sua família
+            Reboque seguro e ágil, 24 horas por dia
           </div>
         </motion.div>
       </div>

@@ -8,17 +8,17 @@ const Footer = () => (
         <div>
           <div className="flex items-center gap-3 mb-4">
             <img
-              src="/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_LOGO.png"
-              alt="Logo Luiz Falcirolli Eletricista"
+              src="/images/jn-guincho/JNGUINCHO-LOGO.png"
+              alt="Logo JN Guincho"
               className="w-14 h-14 rounded-full object-contain bg-white p-1"
             />
             <h3 className="text-xl font-bold">{COMPANY.name}</h3>
           </div>
           <p className="text-primary-foreground/70 mb-4">
-            Eletricista especializado em instalações e manutenções elétricas residenciais e comerciais com foco em segurança, qualidade técnica e satisfação do cliente.
+            Serviço de reboque e socorro veicular 24h com profissionais treinados, atendimento ágil e preço justo em Brasília e Distrito Federal.
           </p>
           <p className="text-primary-foreground/80">Responsável: {COMPANY.owner}</p>
-          <p className="text-primary-foreground/80">WhatsApp: {COMPANY.phone}</p>
+          <p className="text-primary-foreground/80">WhatsApp: {COMPANY.whatsapp}</p>
         </div>
         <div>
           <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
@@ -27,8 +27,8 @@ const Footer = () => (
           </h3>
           <ul className="text-primary-foreground/70 space-y-2">
             <li>• {COMPANY.location}</li>
-            <li>• Guarulhos - SP</li>
-            <li>• Grande São Paulo</li>
+            <li>• Brasília - DF</li>
+            <li>• Atendimento em todo o Distrito Federal</li>
           </ul>
         </div>
       </div>
