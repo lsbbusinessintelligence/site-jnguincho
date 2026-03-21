@@ -1,54 +1,54 @@
 import { motion } from "framer-motion";
-import { Truck, AlertCircle, Wrench, Zap, Lock, DollarSign } from "lucide-react";
+import { Truck, AlertCircle, Wrench, Zap, Lock } from "lucide-react";
 
 const services = [
   {
-    icon: Plug,
-    title: "InstalaÃ§Ãµes e Trocas",
-    desc: "Chuveiros, torneiras elÃ©tricas, ventiladores de teto, tomadas e interruptores instalados com seguranÃ§a e precisÃ£o.",
-  },
-  {
-    icon: Settings,
-    title: "Quadro de ForÃ§a e Disjuntores",
-    desc: "ManutenÃ§Ã£o, troca de disjuntores que caem e organizaÃ§Ã£o de painÃ©is elÃ©tricos para mÃ¡xima eficiÃªncia.",
-  },
-  {
-    icon: Lightbulb,
-    title: "IluminaÃ§Ã£o",
-    desc: "InstalaÃ§Ã£o de lustres, luminÃ¡rias, fitas LED e sensores de presenÃ§a para valorizar seu ambiente.",
-  },
-  {
     icon: Truck,
     title: "Reboque 24h",
-    desc: "ServiÃ§o de reboque completo para qualquer tipo de veÃ­culo, disponÃ­vel 24 horas por dia e noite em todo o Distrito Federal.",
+    desc: "Serviço de reboque completo para qualquer tipo de veículo, disponível 24 horas por dia e noite em todo o Distrito Federal.",
   },
   {
     icon: AlertCircle,
-    title: "Socorro para Panes ElÃ©tricas",
-    desc: "Atendimento rÃ¡pido para problemas elÃ©tricos no veÃ­culo com profissionais especializados e equipamento adequado.",
+    title: "Socorro para Panes Elétricas",
+    desc: "Atendimento rápido para problemas elétricos no veículo com profissionais especializados e equipamento adequado.",
   },
   {
     icon: Wrench,
     title: "Troca de Pneus",
-    desc: "Troca de pneus com rapidez e seguranÃ§a na sua localizaÃ§Ã£o atual, sem necessidade de deslocamento.",
+    desc: "Troca de pneus com rapidez e segurança na sua localização atual, sem necessidade de deslocamento.",
   },
   {
     icon: Truck,
-    title: "Transporte de VeÃ­culos Leves",
-    desc: "Transporte seguro de veÃ­culos leves para mecÃ¢nicas, estacionamentos ou destinos especÃ­ficos conforme necessÃ¡rio.",
+    title: "Transporte de Veículos Leves",
+    desc: "Transporte seguro de veículos leves para mecânicas, estacionamentos ou destinos específicos conforme necessário.",
   },
   {
     icon: Zap,
     title: "Recarga de Bateria",
-    desc: "ServiÃ§o de recarga de bateria com equipamento profissional para colocar seu veÃ­culo em funcionamento novamente.",
+    desc: "Serviço de recarga de bateria com equipamento profissional para colocar seu veículo em funcionamento novamente.",
   },
   {
     icon: Lock,
-    title: "Abertura de VeÃ­culos",
-    desc: "Abertura segura de veÃ­culos sem danificar a estrutura ou o sistema de seguranÃ§a da porta ou vidro.",
+    title: "Abertura de Veículos",
+    desc: "Abertura segura de veículos sem danificar a estrutura ou o sistema de segurança da porta ou vidro.",
   },
+];
+
+const ServicosSection = () => (
+  <section id="servicos" className="py-20 md:py-28 bg-background scroll-mt-28">
+    <div className="container">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="text-center max-w-2xl mx-auto mb-14"
+      >
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          Nossos <span className="text-gradient">Serviços</span>
+        </h2>
         <p className="text-muted-foreground text-lg">
-          ServiÃ§os de reboque e socorro veicular 24h com profissionais treinados e preÃ§o justo.
+          Serviços de reboque e socorro veicular 24h com profissionais treinados e preço justo.
         </p>
       </motion.div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
