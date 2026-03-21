@@ -26,12 +26,12 @@ const HeroSection = () => (
         >
           <div className="inline-flex items-center gap-3 mb-5 rounded-full bg-white/10 border border-white/20 px-3 py-2">
             <img
-              src="/images/jn-guincho/JNGUINCHO-LOGO.png"
-              alt="Logo JN Guincho"
+              src="/images/ricardo-branco/RICARDOBRANCO-LOGO.png"
+              alt="Logo Ricardo Branco Guincho"
               className="w-12 h-12 rounded-full object-contain bg-white p-1 border border-white/40"
             />
             <span className="text-xs md:text-sm text-primary-foreground/90 font-medium">
-              JN Guincho | Reboque 24 Horas
+              Ricardo Branco | Reboque 24 Horas
             </span>
           </div>
           <div className="flex items-center gap-3 mb-6">

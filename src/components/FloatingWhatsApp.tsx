@@ -2,7 +2,7 @@ import { MessageCircle, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import { WHATSAPP_URL } from "@/lib/siteConfig";
 
-const PHONE_URL = "tel:+5561999553536";
+const PHONE_URL = "tel:+5524981236037";
 
 const FloatingWhatsApp = () => {
   return (
