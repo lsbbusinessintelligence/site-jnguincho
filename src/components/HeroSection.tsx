@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Check, Zap, ShieldCheck } from "lucide-react";
+import { MessageCircle, Check, Truck, ShieldCheck } from "lucide-react";
 import { WHATSAPP_URL } from "@/lib/siteConfig";
 
 const HeroSection = () => (
@@ -36,7 +36,7 @@ const HeroSection = () => (
           </div>
           <div className="flex items-center gap-3 mb-6">
             <div className="relative">
-              <Zap className="w-10 h-10 text-accent relative z-10" />
+              <Truck className="w-10 h-10 text-accent relative z-10" />
               <div className="absolute inset-0 bg-accent/20 blur-xl rounded-full" />
             </div>
           </div>

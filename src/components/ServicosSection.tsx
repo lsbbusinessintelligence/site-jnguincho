@@ -1,36 +1,36 @@
 import { motion } from "framer-motion";
-import { Truck, AlertCircle, Wrench, Zap, Lock } from "lucide-react";
+import { Truck, AlertCircle, Wrench, BatteryCharging, KeyRound } from "lucide-react";
 
 const services = [
   {
     icon: Truck,
     title: "Reboque 24h",
-    desc: "Serviço de reboque completo para qualquer tipo de veículo, disponível 24 horas por dia e noite em todo o Distrito Federal.",
+    desc: "Servico de reboque completo para qualquer tipo de veiculo, disponivel 24 horas por dia e noite em todo o Distrito Federal.",
   },
   {
     icon: AlertCircle,
-    title: "Socorro para Panes Elétricas",
-    desc: "Atendimento rápido para problemas elétricos no veículo com profissionais especializados e equipamento adequado.",
+    title: "Socorro para Panes Eletricas",
+    desc: "Atendimento rapido para problemas eletricos no veiculo com profissionais especializados e equipamento adequado.",
   },
   {
     icon: Wrench,
     title: "Troca de Pneus",
-    desc: "Troca de pneus com rapidez e segurança na sua localização atual, sem necessidade de deslocamento.",
+    desc: "Troca de pneus com rapidez e seguranca na sua localizacao atual, sem necessidade de deslocamento.",
   },
   {
     icon: Truck,
-    title: "Transporte de Veículos Leves",
-    desc: "Transporte seguro de veículos leves para mecânicas, estacionamentos ou destinos específicos conforme necessário.",
+    title: "Transporte de Veiculos Leves",
+    desc: "Transporte seguro de veiculos leves para mecanicas, estacionamentos ou destinos especificos conforme necessario.",
   },
   {
-    icon: Zap,
+    icon: BatteryCharging,
     title: "Recarga de Bateria",
-    desc: "Serviço de recarga de bateria com equipamento profissional para colocar seu veículo em funcionamento novamente.",
+    desc: "Servico de recarga de bateria com equipamento profissional para colocar seu veiculo em funcionamento novamente.",
   },
   {
-    icon: Lock,
-    title: "Abertura de Veículos",
-    desc: "Abertura segura de veículos sem danificar a estrutura ou o sistema de segurança da porta ou vidro.",
+    icon: KeyRound,
+    title: "Abertura de Veiculos",
+    desc: "Abertura segura de veiculos sem danificar a estrutura ou o sistema de seguranca da porta ou vidro.",
   },
 ];
 
@@ -45,10 +45,10 @@ const ServicosSection = () => (
         className="text-center max-w-2xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Nossos <span className="text-gradient">Serviços</span>
+          Nossos <span className="text-gradient">Servicos</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Serviços de reboque e socorro veicular 24h com profissionais treinados e preço justo.
+          Servicos de reboque e socorro veicular 24h com profissionais treinados e preco justo.
         </p>
       </motion.div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
