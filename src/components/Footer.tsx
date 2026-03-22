@@ -8,14 +8,14 @@ const Footer = () => (
         <div>
           <div className="flex items-center gap-3 mb-4">
             <img
-              src="/images/ricardo-branco/RICARDOBRANCO-LOGO.png"
-              alt="Logo Ricardo Branco Guincho"
+              src="/images/jn-guincho/JNGUINCHO-LOGO.png"
+              alt="Logo JN Guincho"
               className="w-14 h-14 rounded-full object-contain bg-white p-1"
             />
             <h3 className="text-xl font-bold">{COMPANY.name}</h3>
           </div>
           <p className="text-primary-foreground/70 mb-4">
-            Serviço de reboque e socorro veicular 24h com profissionais treinados, atendimento ágil e preço justo em Volta Redonda, Barra Mansa e região.
+            Servico de reboque e socorro veicular 24h com profissionais treinados, atendimento agil e preco justo em Brasilia e Distrito Federal.
           </p>
           <p className="text-primary-foreground/80">Responsável: {COMPANY.owner}</p>
           <p className="text-primary-foreground/80">WhatsApp: {COMPANY.whatsapp}</p>
@@ -27,8 +27,8 @@ const Footer = () => (
           </h3>
           <ul className="text-primary-foreground/70 space-y-2">
             <li>• {COMPANY.location}</li>
-            <li>• Volta Redonda - RJ</li>
-            <li>• Atendimento em toda a região Sul Fluminense</li>
+            <li>• Brasilia - DF</li>
+            <li>• Atendimento em todo o Distrito Federal</li>
           </ul>
         </div>
       </div>

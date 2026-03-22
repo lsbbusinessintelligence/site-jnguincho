@@ -1,16 +1,16 @@
 import { motion } from "framer-motion";
 
 const photos = [
-  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE01.jpeg", alt: "Serviço de reboque Ricardo Branco" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE02.jpeg", alt: "Reboque profissional da Ricardo Branco" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE03.jpeg", alt: "Socorro veicular 24h Ricardo Branco" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE04.jpeg", alt: "Atendimento de emergência da Ricardo Branco" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE05.jpeg", alt: "Equipe profissional Ricardo Branco" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE06.jpeg", alt: "Transporte seguro com Ricardo Branco" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE07.jpeg", alt: "Reboque com qualidade Ricardo Branco" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE08.jpeg", alt: "Socorro rápido Ricardo Branco" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE09.jpeg", alt: "Profissionalismo Ricardo Branco" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE10.jpeg", alt: "Segurança no atendimento Ricardo Branco" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE01.jpeg", alt: "Servico de reboque e socorro veicular JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE02.jpeg", alt: "Reboque profissional da JN Guincho em acao" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE03.jpeg", alt: "Socorro veicular 24h JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE04.jpeg", alt: "Atendimento de emergencia da JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE05.jpeg", alt: "Equipe profissional JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE06.jpeg", alt: "Transporte seguro com JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE07.jpeg", alt: "Reboque com qualidade JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE08.jpeg", alt: "Socorro rapido JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE09.jpeg", alt: "Profissionalismo JN Guincho" },
+  { src: "/images/jn-guincho/JNGUINCHOFOTOSITE010.jpeg", alt: "Seguranca no atendimento JN Guincho" },
 ];
 
 const GaleriaSection = () => (
@@ -24,7 +24,7 @@ const GaleriaSection = () => (
         className="text-center max-w-3xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Trabalhos e Atendimentos <span className="text-gradient">da Ricardo Branco</span>
+          Trabalhos e Atendimentos <span className="text-gradient">da JN Guincho</span>
         </h2>
         <p className="text-muted-foreground text-lg">
           Fotos reais de serviços de reboque e socorro veicular executados com profissionalismo e segurança.

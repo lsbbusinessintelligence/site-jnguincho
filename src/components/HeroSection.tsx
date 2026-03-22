@@ -26,12 +26,12 @@ const HeroSection = () => (
         >
           <div className="inline-flex items-center gap-3 mb-5 rounded-full bg-white/10 border border-white/20 px-3 py-2">
             <img
-              src="/images/ricardo-branco/RICARDOBRANCO-LOGO.png"
-              alt="Logo Ricardo Branco Guincho"
+              src="/images/jn-guincho/JNGUINCHO-LOGO.png"
+              alt="Logo JN Guincho"
               className="w-12 h-12 rounded-full object-contain bg-white p-1 border border-white/40"
             />
             <span className="text-xs md:text-sm text-primary-foreground/90 font-medium">
-              Ricardo Branco | Reboque 24 Horas
+              JN Guincho | Reboque 24 Horas
             </span>
           </div>
           <div className="flex items-center gap-3 mb-6">
@@ -89,15 +89,15 @@ const HeroSection = () => (
           transition={{ duration: 0.7, delay: 0.3 }}
           className="flex flex-col items-center gap-6 mt-12 lg:mt-0"
         >
-          <div className="bg-gradient-to-br from-[#0d2454] to-[#1a3a6e] rounded-3xl shadow-2xl p-6 max-w-md border border-white/10">
-            <div className="relative overflow-hidden rounded-2xl bg-[#0d1f3c]">
+          <div className="bg-gradient-to-br from-[#00002c] to-[#03073c] rounded-3xl shadow-2xl p-6 max-w-md border border-white/10">
+            <div className="relative overflow-hidden rounded-2xl bg-[#00002c]">
               <img
                 src="/images/jn-guincho/JNGUINCHOFOTOSITE01.jpeg"
                 alt="Serviço de guincho da JN Guincho"
                 className="w-full h-auto"
               />
             </div>
-            <div className="relative overflow-hidden rounded-2xl bg-[#0d1f3c] mt-4">
+            <div className="relative overflow-hidden rounded-2xl bg-[#00002c] mt-4">
               <img
                 src="/images/jn-guincho/JNGUINCHOFOTOSITE02.jpeg"
                 alt="Reboque profissional da JN Guincho"

@@ -3,12 +3,12 @@ import { MessageCircle } from "lucide-react";
 import { WHATSAPP_URL } from "@/lib/siteConfig";
 
 const reviewImages = [
-  { src: "/images/ricardo-branco/RICARDOBRANCO-AVALIACAO01.png", alt: "Depoimento real de cliente - avaliação 1" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-AVALIACAO02.png", alt: "Depoimento real de cliente - avaliação 2" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-AVALIACAO03.png", alt: "Depoimento real de cliente - avaliação 3" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-AVALIACAO04.png", alt: "Depoimento real de cliente - avaliação 4" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-AVALIACAO05.png", alt: "Depoimento real de cliente - avaliação 5" },
-  { src: "/images/ricardo-branco/RICARDOBRANCO-AVALIACAO06.png", alt: "Depoimento real de cliente - avaliação 6" },
+  { src: "/images/jn-guincho/JNGUINCHOAVALIACAO01.jpg", alt: "Depoimento real de cliente - avaliacao 1" },
+  { src: "/images/jn-guincho/JNGUINCHOAVALIACAO02.jpg", alt: "Depoimento real de cliente - avaliacao 2" },
+  { src: "/images/jn-guincho/JNGUINCHOAVALIACAO03.jpg", alt: "Depoimento real de cliente - avaliacao 3" },
+  { src: "/images/jn-guincho/JNGUINCHOAVALIACAO04.jpg", alt: "Depoimento real de cliente - avaliacao 4" },
+  { src: "/images/jn-guincho/JNGUINCHOAVALIACAO05.jpg", alt: "Depoimento real de cliente - avaliacao 5" },
+  { src: "/images/jn-guincho/JNGUINCHOAVALIACAO06.jpg", alt: "Depoimento real de cliente - avaliacao 6" },
 ];
 
 const TestimonialsSection = () => (
@@ -25,7 +25,7 @@ const TestimonialsSection = () => (
           Depoimentos de <span className="text-gradient">Clientes Reais</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Clientes satisfeitos com o atendimento 24h, profissionalismo, preço justo e as 260+ avaliações 5.0.
+          Clientes satisfeitos com o atendimento 24h, profissionalismo e preco justo da JN Guincho.
         </p>
         <div className="mt-5 flex flex-wrap justify-center items-center gap-3 text-sm">
           <span className="inline-flex items-center gap-2 rounded-full bg-accent/10 border border-accent/30 px-4 py-2 font-semibold text-foreground">
