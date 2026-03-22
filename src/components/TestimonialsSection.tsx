@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
-import { MessageCircle } from "lucide-react";
-import { WHATSAPP_URL } from "@/lib/siteConfig";
+import { Phone } from "lucide-react";
+import { PHONE_NUMBER } from "@/lib/siteConfig";
+
+const PHONE_URL = `tel:+55${PHONE_NUMBER}`;
 
 const reviewImages = [
   { src: "/images/jn-guincho/JNGUINCHOAVALIACAO01.jpg", alt: "Depoimento real de cliente - avaliacao 1" },
@@ -61,20 +63,18 @@ const TestimonialsSection = () => (
         className="mt-10 text-center"
       >
         <a
-          href={WHATSAPP_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 px-7 py-3 rounded-lg bg-accent text-accent-foreground font-semibold hover:brightness-110 transition-all"
+          href={PHONE_URL}
+          className="inline-flex items-center gap-3 px-7 py-3 rounded-lg bg-[#BFEFFF] hover:bg-[#A9D7E6] text-black font-black transition-all shadow-lg hover:shadow-xl"
           onClick={() => {
             if (typeof window !== "undefined" && (window as any).gtag) {
-              (window as any).gtag("event", "click_whatsapp", {
+              (window as any).gtag("event", "click_call", {
                 event_category: "lead",
-                event_label: "botao_whatsapp_depoimentos",
+                event_label: "botao_ligacao_depoimentos",
               });
             }
           }}
         >
-          <MessageCircle className="w-5 h-5" />
+          <Phone className="w-5 h-5" />
           Solicitar Guincho Agora
         </a>
       </motion.div>

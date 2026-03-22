@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Check, Truck, ShieldCheck } from "lucide-react";
-import { WHATSAPP_URL } from "@/lib/siteConfig";
+import { Phone, Check, Truck, ShieldCheck } from "lucide-react";
+import { PHONE_NUMBER } from "@/lib/siteConfig";
+
+const PHONE_URL = `tel:+55${PHONE_NUMBER}`;
 
 const HeroSection = () => (
   <section id="home" className="hero-gradient relative overflow-hidden min-h-[90vh] flex items-center scroll-mt-28">
@@ -47,20 +49,18 @@ const HeroSection = () => (
             Socorro rápido para veículos leves e pesados. Atendimento imediato em Brasília e em todo o Distrito Federal com profissionais treinados e preço justo.
           </p>
           <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-accent text-accent-foreground font-semibold text-lg hover:brightness-110 transition-all duration-200 shadow-[0_0_30px_-10px_rgba(37,211,102,0.8)]"
+            href={PHONE_URL}
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-[#BFEFFF] hover:bg-[#A9D7E6] text-black font-black text-lg transition-all duration-200 shadow-lg hover:shadow-xl"
             onClick={() => {
               if (typeof window !== 'undefined' && (window as any).gtag) {
-                (window as any).gtag('event', 'click_whatsapp', {
+                (window as any).gtag('event', 'click_call', {
                   event_category: 'lead',
-                  event_label: 'botao_whatsapp_hero'
+                  event_label: 'botao_ligacao_hero'
                 });
               }
             }}
           >
-            <MessageCircle className="w-5 h-5" />
+            <Phone className="w-5 h-5" />
             Chamar Guincho Agora
           </a>
           <div className="mt-8 flex flex-col gap-3">
